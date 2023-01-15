@@ -2,7 +2,7 @@ body {
   font-family: Amazon Ember;
 }
 
-.navbar {}
+
 
 .ul-a {
   display: grid;
@@ -12,6 +12,8 @@ body {
   align-content: center;
   background-color: black;
   padding-bottom: 0.7rem;
+  padding: 0.4rem;
+  
 }
 
 .ul-a a span{
@@ -32,7 +34,6 @@ a {
 }
 
 .item {
-  /* border: solid 0.001rem orange; */
   padding-top: 0.4rem;
   padding-left: 0.3rem;
   margin-top: 1.4rem;
@@ -75,11 +76,7 @@ span {
 
 }
 
-.item:nth-child(3) {
-  /* grid-column-start:3 ;
-    grid-column-end: 4; */
-  /* padding: 2.5rem 5rem  2.5rem 5rem;     */
-}
+
 
 .item:nth-child(3) input {
   width: 47.9rem;
@@ -172,8 +169,7 @@ span {
 
 .ul-b {
   display: grid;
-  /* grid-template-columns: repeat(14, 1fr); */
-  grid-template-columns: 3rem 11rem 14rem 9rem 12rem;
+  grid-template-columns: 3rem 11rem 14rem 9rem 12rem 54rem 20rem;
 
   grid-gap: 0.1rem;
   justify-self: center;
@@ -187,12 +183,11 @@ span {
 
 .ul-b a {
   font-size: 1.4rem;
-
+ padding: 0.5rem;
 }
 
 .ul-b a:hover{
-  border: #fff solid 1px; border-radius: 0 !important;
-  padding: 0.5rem;
+  border:   #fff solid 0.1rem ; border-radius: 0  ;
 }
 
 .ul-c
@@ -208,18 +203,26 @@ span {
   padding-top: 1rem;
   padding-left: 3rem;
 
-  background-color: white
+  background-color: white;
+  font-weight: 400 ;
 
 }
 
 .ul-c a{
 
   color: #333 ;
+    padding: 0.5rem;
+
+
+}
+
+.home
+{
+  font-weight: 600 ;
 
 }
 .ul-c a:hover{
   color: #ff9900;
-  padding: 0.5rem;
   border-bottom: 0.3rem  solid orange;
   border-radius: 0;
 }
@@ -376,10 +379,7 @@ h2{
 }
 
 
-/* .recommended div:nth-child(1)
-{
 
-} */
 .item-recommended {
   display: grid;
   grid-template-columns: repeat(2, 12rem);
@@ -427,9 +427,7 @@ h2{
 
   grid-row-start: 3;
   grid-row-end: 4;
-  background-image: url("../assets/images/stars.png");
-  background-repeat: no-repeat;
-  background-position: -2px -42px;
+
   height: 1.8rem;
   width: 8rem;
 }
@@ -471,8 +469,48 @@ cursor: pointer;
   height: 20px;
 }
 
+.item-recommended-star1
+{
+  background-image: url("../assets/images/stars.png");
+  background-repeat: no-repeat;
+  background-position: -2px -42px;
+}
+
+.item-recommended-star2
+{
+  background-image: url("../assets/images/stars.png");
+  background-repeat: no-repeat;
+  background-position: -2px -2px;
+}
+.item-recommended-star3
+{
+  background-image: url("../assets/images/stars.png");
+  background-repeat: no-repeat;
+  background-position: -2px -2px;
+}
+
+.item-recommended-star4
+{
+  background-image: url("../assets/images/stars.png");
+  background-repeat: no-repeat;
+  background-position: -2px -2px;
+}
 
 
+.item-recommended-star5
+{
+  background-image: url("../assets/images/stars.png");
+  background-repeat: no-repeat;
+  background-position: -2px -42px;
+}
+
+
+.item-recommended-star6
+{
+  background-image: url("../assets/images/stars.png");
+  background-repeat: no-repeat;
+  background-position: -2px -42px;
+}
 .item-recommended-img2
 {
   background-image: url(../assets/images/61NeafL8SeS._AC_SR270270_.jpg); 
